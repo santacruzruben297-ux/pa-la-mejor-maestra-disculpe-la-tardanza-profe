@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz cumpleaños</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="petal-field" id="petalField"></div>
+
+    <main class="page-shell">
+      <button class="open-button" id="openButton" type="button" aria-label="Abrir carta">
+        Abrir carta
+      </button>
+
+      <div class="letter-wrapper" id="letterWrapper">
+        <div class="envelope" aria-label="sobre de cumpleaños">
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="stamp">❤</div>
+        </div>
+
+        <article class="letter">
+          <div class="letter-topline">Para una persona muy especial</div>
+          <h1>Feliz cumpleaños</h1>
+          <h2>Miss Padilla</h2>
+
+          <div class="letter-body">
+            <p>
+              Feliz cumpleaños, profe. ❤️ Hoy quiero agradecerle por todo lo que ha
+              significado para mí y para nosotras durante este último año. Usted no ha
+              sido solo nuestra profesora, sino alguien que siempre supo escuchar,
+              aconsejar, acompañar y estar presente en los momentos más importantes.
+            </p>
+            <p>
+              Cada consejo, cada palabra y cada enseñanza se quedan conmigo con mucho
+              cariño. Me alegra haber compartido este año con usted, porque sé que esta
+              etapa no se va a repetir. Entre clases, risas, conversaciones y tantas
+              experiencias, creadas recuerdos que siempre vamos a llevar en el corazón.
+            </p>
+            <p>
+              Gracias por acompañarnos en una etapa tan importante de nuestras vidas,
+              por ser paciente, por preocuparse por nosotras y por enseñarnos cosas que
+              van mucho más allá de una materia. Gracias por demostrar que una buena
+              profesora también puede llegar a ser alguien que marca el corazón de sus
+              estudiantes.
+            </p>
+            <p>
+              Espero que la vida le devuelva todo lo bonito que usted ha dado; que nunca
+              le falten motivos para sonreír, personas que la quieran de verdad y sueños
+              que la hagan seguir creciendo.
+            </p>
+            <p>
+              Aunque cada una siga su camino, quiero que sepa que siempre voy a guardar
+              su recuerdo con mucho cariño y gratitud. Gracias por ser parte de este
+              último año y por ser una profesora tan especial.
+            </p>
+          </div>
+
+          <div class="memory-gallery" aria-label="Fotos de la profe">
+            <h3>Momentos bonitos con la profe</h3>
+            <div class="gallery-grid">
+              <figure class="photo-card photo-card-left">
+                <img
+                  src="WhatsApp_Image_2026-10-05_at_3.30.47_AM_final.webp"
+                  alt="Foto de la profe sonriendo"
+                  loading="eager"
+                  width="900"
+                  height="900"
+                />
+              </figure>
+              <figure class="photo-card photo-card-right">
+                <img
+                  src="WhatsApp_Image_2026-10-05_at_3.31.08_AM_final.webp"
+                  alt="Segunda foto de la profe"
+                  loading="eager"
+                  width="900"
+                  height="900"
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="signature">Con mucho cariño,<br /><span>una de sus estudiantes</span></div>
+        </article>
+      </div>
+
+    </main>
+
+    <audio id="birthdayAudio" autoplay loop preload="auto">
+      <source src="Chayanne - Dejaría Todo.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
